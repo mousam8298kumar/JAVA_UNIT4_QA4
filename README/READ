@@ -1,0 +1,64 @@
+Simple Expense Tracker (JavaFX + SQLite)
+
+📌 Project Description
+
+The Simple Expense Tracker is a desktop application developed using JavaFX for the user interface and SQLite for database storage.
+It allows users to record, view, and analyze daily expenses based on date, category, and amount.
+
+This project demonstrates data-driven UI design and database connectivity using JDBC, which are key learning outcomes for MCA students.
+
+🎯 Features
+
+Add daily expenses with date, category, and amount
+
+Store data in SQLite database
+
+Display all expenses in a table view
+
+Show category-wise expense distribution using a Pie Chart
+
+Simple and user-friendly JavaFX interface
+
+🛠 Technologies Used
+
+Java (JDK 17+)
+
+JavaFX SDK
+
+SQLite Database
+
+JDBC (SQLite Driver)
+
+VS Code / Any Java IDE
+
+🗄 Database Structure
+
+Table: expenses
+Column	Type	Description
+id	INTEGER	Primary key (Auto increment)
+date	TEXT	Expense date
+category	TEXT	Expense category
+amount	REAL	Expense amount
+
+
+
+Expected Output
+
+User can add expense details
+
+Data is saved in SQLite database
+
+Expenses appear in table view
+
+Pie chart shows category-wise totals
+
+🎓 Learning Outcomes
+
+Understanding JavaFX GUI development
+
+Working with SQLite database using JDBC
+
+Implementing data visualization
+
+Designing data-driven desktop applications
+
